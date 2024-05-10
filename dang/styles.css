@@ -1,4 +1,15 @@
-/* styles.css */
+h1 {
+    position: absolute;
+    top: 1%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+p {
+    position: absolute;
+    top: 5%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -10,5 +21,21 @@ h1 {
 }
 
 p {
-    color: #3d16ec;
+    color: #242427;
+}
+
+img {
+    width: 1000px; 
+    height: 800px; 
+}
+
+.img-container {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, 10%);
 }
